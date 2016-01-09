@@ -2,4 +2,5 @@
 
 * Introdução
 * Começando
+* Tipos e Typeclasses
 
