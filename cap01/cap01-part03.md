@@ -1,4 +1,4 @@
-O que eu preciso para embarcar nessa
+O que eu preciso para embarcar nessa?
 ====================================
 
 Um editor de texto e um compilador Haskell. Provavelmente você já tem um editor de texto favorito instalado, então não perca tempo com isso. Neste tutorial iremos usar o <a href="https://www.haskell.org/ghc/" target="_blank">GHC</a>, o compilador Haskell mais usado. O melhor modo de iniciar na linguagem é baixando o <a href="http://hackage.haskell.org/platform/">Haskell Platform</a>, que é algo como o Haskell com esteróides.
