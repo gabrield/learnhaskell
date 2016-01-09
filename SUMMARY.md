@@ -1,6 +1,5 @@
 # Summary
-
-* [Introduction](README.md)
+* Introdução
 * Começando
 * Tipos e Typeclasses
 * Sintaxe em Funções
