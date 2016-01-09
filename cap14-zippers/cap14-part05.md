@@ -5,10 +5,6 @@ Agora que sabemos como os zippers funcionam, vamos usar árvores para representa
 
 Se tomarmos uma visão simplista do sistema de arquivos hierárquico comum, veremos que ele é em sua maior parte composto de arquivos e diretórios. Arquivos são unidades de dados que vem com um nome, enquanto que diretórios são usados para organizar tais arquivos e podem conter arquivos ou outros diretórios. Então digamos que um item em um sistema de arquivos pode ser tanto um arquivo, que vem com um nome e alguns dados, ou um diretório, que contém um nome e um monte de itens que podem ser tanto arquivos ou diretórios. Aqui está um tipo de dado para isto e um tipo sinônimo para sabermos o que é o quê:
 
-Now that we know how zippers work, let's use trees to represent a very simplefile system and then make a zipper for that file system, which will allow us tomove between folders, just like we usually do when jumping around our filesystem.
-
-If we take a simplistic view of the average hierarchical file system, we seethat it's mostly made up of files and folders. Files are units of data and comewith a name, whereas folders are used to organize those files and can containfiles or other folders. So let's say that an item in a file system is either afile, which comes with a name and some data, or a folder, which has a name andthen a bunch of items that are either files or folders themselves. Here's a datatype for this and some type synonyms so we know what's what:
-
 A file comes with two strings, which represent its name and the data it holds. Afolder comes with a string that is its name and a list of items. If that list isempty, then we have an empty folder.
 
 Here's a folder with some files and sub-folders:
