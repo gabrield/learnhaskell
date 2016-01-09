@@ -5,6 +5,8 @@ Agora que sabemos como os zippers funcionam, vamos usar árvores para representa
 
 Se tomarmos uma visão simplista do sistema de arquivos hierárquico comum, veremos que ele é em sua maior parte composto de arquivos e diretórios. Arquivos são unidades de dados que vem com um nome, enquanto que diretórios são usados para organizar tais arquivos e podem conter arquivos ou outros diretórios. Então digamos que um item em um sistema de arquivos pode ser tanto um arquivo, que vem com um nome e alguns dados, ou um diretório, que contém um nome e um monte de itens que podem ser tanto arquivos ou diretórios. Aqui está um tipo de dado para isto e um tipo sinônimo para sabermos o que é o quê:
 
+Um arquivo vem com duas strings, que representam seu nome e os dados que contém. Um diretórios tem um nome
+
 A file comes with two strings, which represent its name and the data it holds. Afolder comes with a string that is its name and a list of items. If that list isempty, then we have an empty folder.
 
 Here's a folder with some files and sub-folders:
