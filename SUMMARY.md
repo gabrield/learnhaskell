@@ -1,7 +1,8 @@
 # Summary
 
 * [Sobre](README.md)
-* [Capítulo 1]
+* [Introdução](cap01/cap01-part01.md)
+    * []
 * Começando
 * Tipos e Typeclasses
 * Sintaxe em Funções
