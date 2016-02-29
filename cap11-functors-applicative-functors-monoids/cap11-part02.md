@@ -44,6 +44,9 @@ pequenas perninhas, nós conseguimos ver como [code]IO[/code] age como um functo
 Vamos ver como [code]IO[/code] é uma instância de [code]Functor[/code]. Quando nós [code]fmap[/code]  uma função sobre uma ação I/O, nós esperamos receber de volta uma ação I/O que faz a mesma coisa, mas que tem a nossa função aplicada sobre seus valores resultantes.
 
 
+O resultado de um mapping sobre uma ação de I/O será uma ação de I/O, então logo de cara usamos a sintaxe para colar duas ações para fazer uma nova.
+
+
 The result of mapping something over an I/O action will be an I/O action, so right off the bat we 
 use <i>do</i> syntax to glue two actions and make a new one. In the implementation for 
 [code]fmap[/code], we make a new I/O action that first performs the original I/O action and 
