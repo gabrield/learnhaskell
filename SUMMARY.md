@@ -7,6 +7,4 @@
 * Tipos e Typeclasses
 * Sintaxe em Funções
 * Recursão
-* oi
-   * o
 
