@@ -1,7 +1,9 @@
 For a Few Monads More
 =====================
 
-We've seen how monads can be used to take values with contexts and apply them to functions and how using [code]&gt;&gt;=[/code] or [code]do[/code] notation allows us to focus on the values themselves while the context gets handled for us. 
+We've seen how monads can be used to take values with contexts and apply them to functions and how using [code]&gt;&gt;=[/code] or [code]do[/code] notation allows us to focus on the values themselves while the context gets handled for us.
+
+Nós vimos como monads podem ser usados para levar valores com contextos e aplica-los em funções e como [code]&gt;&gt;=[/code] ou notações [code]do[/code] nos permitem focar nos valores por si só enquanto o contexto é tratato para nós.
 
 We've met the [code]Maybe[/code] monad and seen how it adds a context of possible failure to values. We've learned about the list monad and saw how it lets us easily introduce non-determinism into our programs. We've also learned how to work in the [code]IO[/code] monad, even before we knew what a monad was!
 
